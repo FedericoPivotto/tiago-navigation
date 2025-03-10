@@ -1,0 +1,18 @@
+<launch>
+
+  <!-- Node start_task asks the task execution -->
+  <node name="start_task" pkg="ir2425_group_15" type="start_task" output="screen" />
+
+  <!-- Node robot_navigation_action_server executes the server -->
+  <node name="task_status_action_server" pkg="ir2425_group_15" type="task_status_action_server" output="screen" />
+
+  <!-- Node robot_navigation_action_server executes the server -->
+  <node name="robot_navigation_action_server" pkg="ir2425_group_15" type="robot_navigation_action_server" output="screen" />
+
+  <!-- Node robot_controller_action_server executes the server -->
+  <node name="robot_controller_action_server" pkg="ir2425_group_15" type="robot_controller_action_server" output="screen" />
+
+  <!-- Node apriltags_detection_action_server executes the server -->
+  <node name="apriltags_detection_action_server" pkg="ir2425_group_15" type="apriltags_detection_action_server" output="screen" />
+  
+</launch>

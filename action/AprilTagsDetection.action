@@ -1,0 +1,44 @@
+## Action goal
+
+# Target AprilTags to find
+int32 n_srv_target_apriltag_ids
+int32[] srv_target_apriltag_ids
+
+---
+
+## Action result
+
+# Detection status
+bool is_completed
+
+# Target AprilTags to find
+int32 n_srv_target_apriltag_ids
+int32[] srv_target_apriltag_ids
+
+# Target AprilTags found
+int32 n_target_apriltag_ids
+int32[] target_apriltag_ids
+geometry_msgs/PoseArray target_apriltag_poses
+
+# Non-target AprilTags found
+int32 n_nontarget_apriltag_ids
+int32[] nontarget_apriltag_ids
+geometry_msgs/PoseArray nontarget_apriltag_poses
+
+---
+
+## Action feedback
+
+# Target AprilTags to find
+int32 n_srv_target_apriltag_ids
+int32[] srv_target_apriltag_ids
+
+# Target AprilTags found
+int32 n_target_apriltag_ids
+int32[] target_apriltag_ids
+geometry_msgs/PoseArray target_apriltag_poses
+
+# Non-target AprilTags found
+int32 n_nontarget_apriltag_ids
+int32[] nontarget_apriltag_ids
+geometry_msgs/PoseArray nontarget_apriltag_poses

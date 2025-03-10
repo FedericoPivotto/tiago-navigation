@@ -1,0 +1,21 @@
+## Action goal
+
+# Motion to execute: "initial", "corridor", "final"
+string motion
+# Waypoint to reach
+geometry_msgs/PoseStamped waypoint
+
+---
+
+## Action result
+
+# Robot status
+string robot_state
+# Waypoint actually reached
+geometry_msgs/PoseStamped waypoint
+
+---
+
+## Action feedback
+
+# Not necessary

@@ -1,0 +1,20 @@
+## Action goal
+
+# Waypoint path
+int32 n_waypoints
+nav_msgs/Path waypoint_path
+
+---
+
+## Action result
+
+# Navigation status
+bool is_completed
+# Robot status
+string robot_state
+
+---
+
+## Action feedback
+
+ir2425_group_15/RobotControllerResult robot_controller_result

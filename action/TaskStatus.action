@@ -1,0 +1,23 @@
+## Action goal
+
+# Goals for robot navigation and AprilTags detection
+ir2425_group_15/RobotNavigationGoal robot_navigation_goal
+ir2425_group_15/AprilTagsDetectionGoal apriltags_detection_goal
+
+---
+
+## Action result
+
+# Task status
+bool is_completed
+# Results from robot navigation and AprilTags detection
+ir2425_group_15/RobotNavigationResult robot_navigation_result
+ir2425_group_15/AprilTagsDetectionResult apriltags_detection_result
+
+---
+
+## Action feedback
+
+# Feedbacks from robot navigation and AprilTags detection
+ir2425_group_15/RobotNavigationFeedback robot_navigation_feedback
+ir2425_group_15/AprilTagsDetectionFeedback apriltags_detection_feedback
